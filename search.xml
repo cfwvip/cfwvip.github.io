@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>这是我的第一个测试页面</title>
+      <link href="/article/fish.html"/>
+      <url>/article/fish.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/article/hello-world.html"/>
       <url>/article/hello-world.html</url>
