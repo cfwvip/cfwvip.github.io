@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>这是我的第一个测试页面</title>
-      <link href="/learn/fish.html"/>
-      <url>/learn/fish.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>测试页面</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> learn </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="/article/hello-world.html"/>
       <url>/article/hello-world.html</url>
