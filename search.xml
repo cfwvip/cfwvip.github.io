@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>soft</title>
+      <link href="/soft/soft.html"/>
+      <url>/soft/soft.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>优秀软件</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> soft </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> soft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python爬虫教程</title>
       <link href="/learn/python.html"/>
       <url>/learn/python.html</url>
