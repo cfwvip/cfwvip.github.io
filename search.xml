@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>python爬虫教程</title>
+      <link href="/learn/python.html"/>
+      <url>/learn/python.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>大家好，我是唐朝飞鱼，这是本站的第一篇技术教程，非常高兴能在这里给大家分享爬虫的相关知识，因为爬虫与反爬虫技术在实践中不断升级，因此本站也会不断更新教程。如果喜欢本站，请关注、分享本站，如果对您有所帮助，可以请我喝一杯咖啡，谢谢。</p><h1 id="爬虫的前世今生"><a href="#爬虫的前世今生" class="headerlink" title="爬虫的前世今生"></a>爬虫的前世今生</h1><h2 id="爬虫的前世"><a href="#爬虫的前世" class="headerlink" title="爬虫的前世"></a>爬虫的前世</h2><h3 id="谷歌"><a href="#谷歌" class="headerlink" title="谷歌"></a>谷歌</h3><p>1998年9月谷歌公司成立，1999年谷歌公司网站上线运营。<br>谷歌瞄准了互联网不断增长，信息进入爆炸时代。<br>如何帮助用户寻找有效信息，谷歌根据当前市场，提前瞄准市场的机遇，通过广告收入完成盈利。<br>谷歌使用的技术就是爬虫技术，从海量的互联网站搜索网站，并索引、根据用户喜爱程度进行排名及付费排名。</p><h3 id="百度"><a href="#百度" class="headerlink" title="百度"></a>百度</h3><p>2000年前，互联网上的资源信息较少，只有很少的搜狐、网易、中华网。<br>1999年身在美国硅谷的李彦宏看到了中国互联网及中文搜索引擎服务的巨大发展潜力，既然美国有谷歌，中国应该有百度。<br>百度取名来源于，辛弃疾的众里寻他千百度。<br>如何索引中国文字信息，并且快速、有效的提供给客户是那个时代百度的使命。</p><h3 id="hao123"><a href="#hao123" class="headerlink" title="hao123"></a>hao123</h3><p>搜索引擎出现之前，在中国互联网上的IE默认主页就是hao123，hao123搜集整理了很多优秀的网站，并且按照功能分类，提供了互联网的入口。</p><h2 id="爬虫的今生"><a href="#爬虫的今生" class="headerlink" title="爬虫的今生"></a>爬虫的今生</h2><h3 id="旧时代逝去"><a href="#旧时代逝去" class="headerlink" title="旧时代逝去"></a>旧时代逝去</h3><p>2000年-2010年，网站蓬勃发展，搜索引擎也在快速壮大，如何获取好的排名，利用SEO结合搜索引擎的特点提升网站排名，让很多垃圾站点位居排名前列。<br>谷歌和百度都在优化算法，改变权重，期待较好的用户体验。然而公司终究是盈利的，广告排名竞价机制的高成本，让小企业难以为继。<br>高利润企业上竞价排名，低利润上SEO。中国互联网群魔乱舞，搜索到的信息终究不是自己想要的。<br>在今天人们已经有限度的使用搜索引擎，让搜索引擎服务商也是想尽了办法。<br>谷歌资助了很多开源项目，培养了很多优秀的人才。<br>百度则是利用搜索引擎的垄断地位，利用新闻、资讯、贴吧来圈住用户。<br>让人感到不满的是，手机的快速发展，电脑端在迅速消退，百度强制使用搜索，要下载APP，让一些人感到吃了苍蝇。<br>特别是莆田医院的事故，让人从内心抵制百度，这家企业是否严重的背离了价值观或者说根本就没有价值观。李彦宏就是个商人，百度就是依赖代理商高返点生存。<br>我讨厌谷歌和百度！讨厌搜索到的内容充满了虚假信息、病毒木马。</p><h3 id="新时代"><a href="#新时代" class="headerlink" title="新时代"></a>新时代</h3><p>按需定制自己需要的信息，2009年中国出现了火车头采集器。这种采集让互联网抄袭成为了一种常态。前篇一律的文章和抄袭，互联网创新在减少。<br>网站技术不断发展，火车头采集器的局限性及数据挖掘不足，且不开源授权导致了部分人转学python。<br>2015年国内的技术大拿就开始研究python了，python像病毒一样得到了快速发展。数据挖掘的资深人士可以取得数据科学家的称号。</p><h3 id="爬虫初级"><a href="#爬虫初级" class="headerlink" title="爬虫初级"></a>爬虫初级</h3><p>网页基础分析、requests 请求、XPath 和正则解析、Ajax 分析、Selenium 模拟浏览器爬取、Scrapy 等知识点。<br>这个在一些大学和公开课上可以学到。</p><h3 id="爬虫中级到高级"><a href="#爬虫中级到高级" class="headerlink" title="爬虫中级到高级"></a>爬虫中级到高级</h3><p>技术随着时代的发展，学会初级内容了，发现互联网上只能适用一些小的个人站点。<br>大的站点js加密、APP加密，根本无法爬取。高阶的教程万元起步，但是很难学会，或者是学会了遇到项目还是难。<br>一些新兴爬虫技术如异步爬虫、JavaScript 逆向、AST 技术、安卓逆向、Hook、智能解析、WebAssembly、大规模分布式、Docker、Kubernetes 等技术不断涌现。<br>当前时代在不断变更，技术更是日新月异。<br>培训内容却是泛滥不堪、同质化严重，知识陈旧，买到的书籍和案例根本无法实现，这极大地打击了初学者的自信心。</p><p>2022 年，工作空闲时，我就来整理下资料，按照体系的标准来分享。</p><h1 id="Python3-网络爬虫学习教程提纲"><a href="#Python3-网络爬虫学习教程提纲" class="headerlink" title="Python3 网络爬虫学习教程提纲"></a>Python3 网络爬虫学习教程提纲</h1><h2 id="爬虫法律法规学习"><a href="#爬虫法律法规学习" class="headerlink" title="爬虫法律法规学习"></a>爬虫法律法规学习</h2><h2 id="python爬虫初级教程"><a href="#python爬虫初级教程" class="headerlink" title="python爬虫初级教程"></a>python爬虫初级教程</h2><h3 id="优秀的爬虫课程介绍"><a href="#优秀的爬虫课程介绍" class="headerlink" title="优秀的爬虫课程介绍"></a>优秀的爬虫课程介绍</h3><h3 id="爬虫基础"><a href="#爬虫基础" class="headerlink" title="爬虫基础"></a>爬虫基础</h3><h3 id="python爬虫库"><a href="#python爬虫库" class="headerlink" title="python爬虫库"></a>python爬虫库</h3><h3 id="python提取网页数据"><a href="#python提取网页数据" class="headerlink" title="python提取网页数据"></a>python提取网页数据</h3><h2 id="爬虫中级教程"><a href="#爬虫中级教程" class="headerlink" title="爬虫中级教程"></a>爬虫中级教程</h2><h3 id="爬虫与数据存储"><a href="#爬虫与数据存储" class="headerlink" title="爬虫与数据存储"></a>爬虫与数据存储</h3><h3 id="Ajax数据爬取"><a href="#Ajax数据爬取" class="headerlink" title="Ajax数据爬取"></a>Ajax数据爬取</h3><h3 id="异步爬虫"><a href="#异步爬虫" class="headerlink" title="异步爬虫"></a>异步爬虫</h3><h3 id="验证码识别"><a href="#验证码识别" class="headerlink" title="验证码识别"></a>验证码识别</h3><h3 id="代理IP池"><a href="#代理IP池" class="headerlink" title="代理IP池"></a>代理IP池</h3><h3 id="模拟登录"><a href="#模拟登录" class="headerlink" title="模拟登录"></a>模拟登录</h3><h3 id="账号池"><a href="#账号池" class="headerlink" title="账号池"></a>账号池</h3><h2 id="爬虫高级教程（web）"><a href="#爬虫高级教程（web）" class="headerlink" title="爬虫高级教程（web）"></a>爬虫高级教程（web）</h2><h3 id="JavaScript动态渲染页面爬取"><a href="#JavaScript动态渲染页面爬取" class="headerlink" title="JavaScript动态渲染页面爬取"></a>JavaScript动态渲染页面爬取</h3><h3 id="JavaScript逆向爬取"><a href="#JavaScript逆向爬取" class="headerlink" title="JavaScript逆向爬取"></a>JavaScript逆向爬取</h3><h2 id="爬虫高级教程（app）"><a href="#爬虫高级教程（app）" class="headerlink" title="爬虫高级教程（app）"></a>爬虫高级教程（app）</h2><h3 id="App数据爬取"><a href="#App数据爬取" class="headerlink" title="App数据爬取"></a>App数据爬取</h3><h3 id="安卓逆向"><a href="#安卓逆向" class="headerlink" title="安卓逆向"></a>安卓逆向</h3><h2 id="爬虫高级教程（综合）"><a href="#爬虫高级教程（综合）" class="headerlink" title="爬虫高级教程（综合）"></a>爬虫高级教程（综合）</h2><h3 id="scrape框架"><a href="#scrape框架" class="headerlink" title="scrape框架"></a>scrape框架</h3><h3 id="云爬取"><a href="#云爬取" class="headerlink" title="云爬取"></a>云爬取</h3><h3 id="分布式爬虫"><a href="#分布式爬虫" class="headerlink" title="分布式爬虫"></a>分布式爬虫</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> learn </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>优秀软件</title>
       <link href="/soft/soft.html"/>
       <url>/soft/soft.html</url>
@@ -54,25 +79,19 @@
     
     
     <entry>
-      <title>python爬虫教程</title>
-      <link href="/learn/python.html"/>
-      <url>/learn/python.html</url>
+      <title>tabby 命令行终端工具</title>
+      <link href="/soft/tabby.html"/>
+      <url>/soft/tabby.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>大家好，我是唐朝飞鱼，这是本站的第一篇技术教程，非常高兴能在这里给大家分享爬虫的相关知识，因为爬虫与反爬虫技术在实践中不断升级，因此本站也会不断更新教程。如果喜欢本站，请关注、分享本站，如果对您有所帮助，可以请我喝一杯咖啡，谢谢。</p><h1 id="爬虫的前世今生"><a href="#爬虫的前世今生" class="headerlink" title="爬虫的前世今生"></a>爬虫的前世今生</h1><h2 id="爬虫的前世"><a href="#爬虫的前世" class="headerlink" title="爬虫的前世"></a>爬虫的前世</h2><h3 id="谷歌"><a href="#谷歌" class="headerlink" title="谷歌"></a>谷歌</h3><p>1998年9月谷歌公司成立，1999年谷歌公司网站上线运营。<br>谷歌瞄准了互联网不断增长，信息进入爆炸时代。<br>如何帮助用户寻找有效信息，谷歌根据当前市场，提前瞄准市场的机遇，通过广告收入完成盈利。<br>谷歌使用的技术就是爬虫技术，从海量的互联网站搜索网站，并索引、根据用户喜爱程度进行排名及付费排名。</p><h3 id="百度"><a href="#百度" class="headerlink" title="百度"></a>百度</h3><p>2000年前，互联网上的资源信息较少，只有很少的搜狐、网易、中华网。<br>1999年身在美国硅谷的李彦宏看到了中国互联网及中文搜索引擎服务的巨大发展潜力，既然美国有谷歌，中国应该有百度。<br>百度取名来源于，辛弃疾的众里寻他千百度。<br>如何索引中国文字信息，并且快速、有效的提供给客户是那个时代百度的使命。</p><h3 id="hao123"><a href="#hao123" class="headerlink" title="hao123"></a>hao123</h3><p>搜索引擎出现之前，在中国互联网上的IE默认主页就是hao123，hao123搜集整理了很多优秀的网站，并且按照功能分类，提供了互联网的入口。</p><h2 id="爬虫的今生"><a href="#爬虫的今生" class="headerlink" title="爬虫的今生"></a>爬虫的今生</h2><h3 id="旧时代逝去"><a href="#旧时代逝去" class="headerlink" title="旧时代逝去"></a>旧时代逝去</h3><p>2000年-2010年，网站蓬勃发展，搜索引擎也在快速壮大，如何获取好的排名，利用SEO结合搜索引擎的特点提升网站排名，让很多垃圾站点位居排名前列。<br>谷歌和百度都在优化算法，改变权重，期待较好的用户体验。然而公司终究是盈利的，广告排名竞价机制的高成本，让小企业难以为继。<br>高利润企业上竞价排名，低利润上SEO。中国互联网群魔乱舞，搜索到的信息终究不是自己想要的。<br>在今天人们已经有限度的使用搜索引擎，让搜索引擎服务商也是想尽了办法。<br>谷歌资助了很多开源项目，培养了很多优秀的人才。<br>百度则是利用搜索引擎的垄断地位，利用新闻、资讯、贴吧来圈住用户。<br>让人感到不满的是，手机的快速发展，电脑端在迅速消退，百度强制使用搜索，要下载APP，让一些人感到吃了苍蝇。<br>特别是莆田医院的事故，让人从内心抵制百度，这家企业是否严重的背离了价值观或者说根本就没有价值观。李彦宏就是个商人，百度就是依赖代理商高返点生存。<br>我讨厌谷歌和百度！讨厌搜索到的内容充满了虚假信息、病毒木马。</p><h3 id="新时代"><a href="#新时代" class="headerlink" title="新时代"></a>新时代</h3><p>按需定制自己需要的信息，2009年中国出现了火车头采集器。这种采集让互联网抄袭成为了一种常态。前篇一律的文章和抄袭，互联网创新在减少。<br>网站技术不断发展，火车头采集器的局限性及数据挖掘不足，且不开源授权导致了部分人转学python。<br>2015年国内的技术大拿就开始研究python了，python像病毒一样得到了快速发展。数据挖掘的资深人士可以取得数据科学家的称号。</p><h3 id="爬虫初级"><a href="#爬虫初级" class="headerlink" title="爬虫初级"></a>爬虫初级</h3><p>网页基础分析、requests 请求、XPath 和正则解析、Ajax 分析、Selenium 模拟浏览器爬取、Scrapy 等知识点。<br>这个在一些大学和公开课上可以学到。</p><h3 id="爬虫中级到高级"><a href="#爬虫中级到高级" class="headerlink" title="爬虫中级到高级"></a>爬虫中级到高级</h3><p>技术随着时代的发展，学会初级内容了，发现互联网上只能适用一些小的个人站点。<br>大的站点js加密、APP加密，根本无法爬取。高阶的教程万元起步，但是很难学会，或者是学会了遇到项目还是难。<br>一些新兴爬虫技术如异步爬虫、JavaScript 逆向、AST 技术、安卓逆向、Hook、智能解析、WebAssembly、大规模分布式、Docker、Kubernetes 等技术不断涌现。<br>当前时代在不断变更，技术更是日新月异。<br>培训内容却是泛滥不堪、同质化严重，知识陈旧，买到的书籍和案例根本无法实现，这极大地打击了初学者的自信心。</p><p>2022 年，工作空闲时，我就来整理下资料，按照体系的标准来分享。</p><h1 id="Python3-网络爬虫学习教程提纲"><a href="#Python3-网络爬虫学习教程提纲" class="headerlink" title="Python3 网络爬虫学习教程提纲"></a>Python3 网络爬虫学习教程提纲</h1><h2 id="爬虫法律法规学习"><a href="#爬虫法律法规学习" class="headerlink" title="爬虫法律法规学习"></a>爬虫法律法规学习</h2><h2 id="python爬虫初级教程"><a href="#python爬虫初级教程" class="headerlink" title="python爬虫初级教程"></a>python爬虫初级教程</h2><h3 id="优秀的爬虫课程介绍"><a href="#优秀的爬虫课程介绍" class="headerlink" title="优秀的爬虫课程介绍"></a>优秀的爬虫课程介绍</h3><h3 id="爬虫基础"><a href="#爬虫基础" class="headerlink" title="爬虫基础"></a>爬虫基础</h3><h3 id="python爬虫库"><a href="#python爬虫库" class="headerlink" title="python爬虫库"></a>python爬虫库</h3><h3 id="python提取网页数据"><a href="#python提取网页数据" class="headerlink" title="python提取网页数据"></a>python提取网页数据</h3><h2 id="爬虫中级教程"><a href="#爬虫中级教程" class="headerlink" title="爬虫中级教程"></a>爬虫中级教程</h2><h3 id="爬虫与数据存储"><a href="#爬虫与数据存储" class="headerlink" title="爬虫与数据存储"></a>爬虫与数据存储</h3><h3 id="Ajax数据爬取"><a href="#Ajax数据爬取" class="headerlink" title="Ajax数据爬取"></a>Ajax数据爬取</h3><h3 id="异步爬虫"><a href="#异步爬虫" class="headerlink" title="异步爬虫"></a>异步爬虫</h3><h3 id="验证码识别"><a href="#验证码识别" class="headerlink" title="验证码识别"></a>验证码识别</h3><h3 id="代理IP池"><a href="#代理IP池" class="headerlink" title="代理IP池"></a>代理IP池</h3><h3 id="模拟登录"><a href="#模拟登录" class="headerlink" title="模拟登录"></a>模拟登录</h3><h3 id="账号池"><a href="#账号池" class="headerlink" title="账号池"></a>账号池</h3><h2 id="爬虫高级教程（web）"><a href="#爬虫高级教程（web）" class="headerlink" title="爬虫高级教程（web）"></a>爬虫高级教程（web）</h2><h3 id="JavaScript动态渲染页面爬取"><a href="#JavaScript动态渲染页面爬取" class="headerlink" title="JavaScript动态渲染页面爬取"></a>JavaScript动态渲染页面爬取</h3><h3 id="JavaScript逆向爬取"><a href="#JavaScript逆向爬取" class="headerlink" title="JavaScript逆向爬取"></a>JavaScript逆向爬取</h3><h2 id="爬虫高级教程（app）"><a href="#爬虫高级教程（app）" class="headerlink" title="爬虫高级教程（app）"></a>爬虫高级教程（app）</h2><h3 id="App数据爬取"><a href="#App数据爬取" class="headerlink" title="App数据爬取"></a>App数据爬取</h3><h3 id="安卓逆向"><a href="#安卓逆向" class="headerlink" title="安卓逆向"></a>安卓逆向</h3><h2 id="爬虫高级教程（综合）"><a href="#爬虫高级教程（综合）" class="headerlink" title="爬虫高级教程（综合）"></a>爬虫高级教程（综合）</h2><h3 id="scrape框架"><a href="#scrape框架" class="headerlink" title="scrape框架"></a>scrape框架</h3><h3 id="云爬取"><a href="#云爬取" class="headerlink" title="云爬取"></a>云爬取</h3><h3 id="分布式爬虫"><a href="#分布式爬虫" class="headerlink" title="分布式爬虫"></a>分布式爬虫</h3>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>今天给大家介绍一款免费且好用的工具，可以取代putty，Xshell，那就是Tabby。<br>tabby是基于TypeScript语言编写的，支持windows、Macos和linux的客户端程序。</p></div><p>项目源代码官方地址：<br><a href="https://github.com/Eugeny/tabby">https://github.com/Eugeny/tabby</a></p><p><del>截至2022年3月23日，本软件最新版本为1.0.174，支持简体中文。</del><br><del>截至2022年5月9日，本软件最新版本为1.0.176，支持简体中文。</del><br>截至2022年5月9日，本软件最新版本为1.0.181，支持简体中文。<br>官方客户端地址：</p><p><a href="https://github.com/Eugeny/tabby/releases">https://github.com/Eugeny/tabby/releases</a></p><p>建议从官方下载，第三方下载可能包含病毒或广告插件！</p><p>下面来看下功能，支持ssh，telnet，串口，CMD，POWER SHELL，WSL，还有代码高亮等很多特性，真的很棒。</p><p>Github在国内一些区域访问异常，您可以从本站下载，请我喝一杯咖啡。</p><p>因为体积太大，大约在100M左右，通过百度网盘、天翼云盘分享，包括Windows、Macos 苹果芯片、Macos intel芯片、Linux Deb包、Linux Deb包、Linux rpm包。</p><p>当前分享版本为1.0.176。</p>]]></content>
       
       
       <categories>
           
-          <category> learn </category>
+          <category> soft </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> python </tag>
-            
-        </tags>
       
     </entry>
     
