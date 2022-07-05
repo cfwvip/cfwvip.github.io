@@ -54,6 +54,25 @@
     
     
     <entry>
+      <title>tabby 命令行终端工具</title>
+      <link href="/soft/tabby.html"/>
+      <url>/soft/tabby.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>今天给大家介绍一款免费且好用的工具，可以取代putty，Xshell，那就是Tabby。<br>tabby是基于TypeScript语言编写的，支持windows、Macos和linux的客户端程序。</p></div><p>项目源代码官方地址：<br><a href="https://github.com/Eugeny/tabby">https://github.com/Eugeny/tabby</a></p><p><del>截至2022年3月23日，本软件最新版本为1.0.174，支持简体中文。</del><br><del>截至2022年5月9日，本软件最新版本为1.0.176，支持简体中文。</del><br>截至2022年5月9日，本软件最新版本为1.0.181，支持简体中文。<br>官方客户端地址：</p><p><a href="https://github.com/Eugeny/tabby/releases">https://github.com/Eugeny/tabby/releases</a></p><p>建议从官方下载，第三方下载可能包含病毒或广告插件！</p><p>下面来看下功能，支持ssh，telnet，串口，CMD，POWER SHELL，WSL，还有代码高亮等很多特性，真的很棒。</p><p>Github在国内一些区域访问异常，您可以从本站下载，请我喝一杯咖啡。</p><p>因为体积太大，大约在100M左右，通过百度网盘、天翼云盘分享，包括Windows、Macos 苹果芯片、Macos intel芯片、Linux Deb包、Linux Deb包、Linux rpm包。<br>当前分享版本为1.0.176。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> soft </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>优秀软件</title>
       <link href="/soft/soft.html"/>
       <url>/soft/soft.html</url>
@@ -73,25 +92,6 @@
             <tag> soft </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tabby 命令行终端工具</title>
-      <link href="/soft/tabby.html"/>
-      <url>/soft/tabby.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>今天给大家介绍一款免费且好用的工具，可以取代putty，Xshell，那就是Tabby。<br>tabby是基于TypeScript语言编写的，支持windows、Macos和linux的客户端程序。</p></div><p>项目源代码官方地址：<br><a href="https://github.com/Eugeny/tabby">https://github.com/Eugeny/tabby</a></p><p><del>截至2022年3月23日，本软件最新版本为1.0.174，支持简体中文。</del><br><del>截至2022年5月9日，本软件最新版本为1.0.176，支持简体中文。</del><br>截至2022年5月9日，本软件最新版本为1.0.181，支持简体中文。<br>官方客户端地址：</p><p><a href="https://github.com/Eugeny/tabby/releases">https://github.com/Eugeny/tabby/releases</a></p><p>建议从官方下载，第三方下载可能包含病毒或广告插件！</p><p>下面来看下功能，支持ssh，telnet，串口，CMD，POWER SHELL，WSL，还有代码高亮等很多特性，真的很棒。</p><p>Github在国内一些区域访问异常，您可以从本站下载，请我喝一杯咖啡。</p><p>因为体积太大，大约在100M左右，通过百度网盘、天翼云盘分享，包括Windows、Macos 苹果芯片、Macos intel芯片、Linux Deb包、Linux Deb包、Linux rpm包。</p><p>当前分享版本为1.0.176。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> soft </category>
-          
-      </categories>
-      
       
     </entry>
     
