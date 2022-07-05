@@ -54,18 +54,12 @@
     
     
     <entry>
-      <title>tabby 命令行终端工具</title>
-      <link href="/soft/tabby.html"/>
-      <url>/soft/tabby.html</url>
+      <title>安装aiohttp</title>
+      <link href="/article/aiohttp.html"/>
+      <url>/article/aiohttp.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>今天给大家介绍一款免费且好用的工具，可以取代putty，Xshell，那就是Tabby。<br>tabby是基于TypeScript语言编写的，支持windows、Macos和linux的客户端程序。</p></div><p>项目源代码官方地址：<br><a href="https://github.com/Eugeny/tabby">https://github.com/Eugeny/tabby</a></p><p><del>截至2022年3月23日，本软件最新版本为1.0.174，支持简体中文。</del><br><del>截至2022年5月9日，本软件最新版本为1.0.176，支持简体中文。</del><br>截至2022年5月9日，本软件最新版本为1.0.181，支持简体中文。<br>官方客户端地址：</p><p><a href="https://github.com/Eugeny/tabby/releases">https://github.com/Eugeny/tabby/releases</a></p><p>建议从官方下载，第三方下载可能包含病毒或广告插件！</p><p>下面来看下功能，支持ssh，telnet，串口，CMD，POWER SHELL，WSL，还有代码高亮等很多特性，真的很棒。</p><p>Github在国内一些区域访问异常，您可以从本站下载，请我喝一杯咖啡。</p><p>因为体积太大，大约在100M左右，通过百度网盘、天翼云盘分享，包括Windows、Macos 苹果芯片、Macos intel芯片、Linux Deb包、Linux Deb包、Linux rpm包。<br>当前分享版本为1.0.176。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p> 📖 用于asyncio和 Python的异步 HTTP 客户端&#x2F;服务器。</p><p>支持Client和HTTP Server。</p><p>支持开箱即用的服务器 WebSocket和 客户端 WebSocket ，无需回调。</p><p>为 Web 服务器提供中间件和可插入路由。</p></div><div class="note green icon flat"><i class="note-icon fas fa-rocket"></i><p>📚  文檔目錄</p><p>官方文档：<a href="http://aiohttp.readthedocs.io/en/stable">http://aiohttp.readthedocs.io/en/stable</a><br>GitHub：<a href="https://github.com/aio-libs/aiohttp">https://github.com/aio-libs/aiohttp</a><br>PyPi：<a href="https://pypi.python.org/pypi/aiohttp">https://pypi.python.org/pypi/aiohttp</a></p></div><p>Python 的 requests 库是一个阻塞式 HTTP 请求库，发出请求后，程序会一直等待服务器的响应，直到得到响应后程序才会进行下一步的处理，这个过程影响爬虫效率。如何在等待过程中做一些其他的事情，如进行请求的调度、响应的处理等等，aiohttp可以异步处理,合理利用等待过程。</p><p>Aiohttp 是一个提供异步 Web 服务的库，从 Python3.5 版本开始，Python 中加入了 async&#x2F;await 关键字，使得回调的写法更加直观和人性化，Aiohttp 的异步操作借助于 async&#x2F;await 关键字写法变得更加简洁，架构更加清晰。使用异步请求库来进行数据抓取会大大提高效率，下面我们来看一下这个库的安装方法。</p><h1 id="pip-安装"><a href="#pip-安装" class="headerlink" title="pip 安装"></a>pip 安装</h1><p>推荐使用 pip 安装，命令如下：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">pip3 install aiohttp</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>另外官方还推荐安装如下两个库，一个是字符编码检测库 cchardet，另一个是加速 DNS 解析库 aiodns，安装命令如下：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">pip3 install cchardet aiodns</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>测试安装<br>安装完成之后，可以在 Python 命令行下测试。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ python3</span><br><span class="line"><span class="quote">&gt; import aiohttp</span></span><br><span class="line">如果没有错误报出，则证明库已经安装好了。</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
       
-      
-      <categories>
-          
-          <category> soft </category>
-          
-      </categories>
       
       
     </entry>
@@ -73,11 +67,11 @@
     
     
     <entry>
-      <title>优秀软件</title>
-      <link href="/soft/soft.html"/>
-      <url>/soft/soft.html</url>
+      <title>tabby 命令行终端工具</title>
+      <link href="/soft/tabby.html"/>
+      <url>/soft/tabby.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>优秀软件</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>今天给大家介绍一款免费且好用的工具，可以取代putty，Xshell，那就是Tabby。<br>tabby是基于TypeScript语言编写的，支持windows、Macos和linux的客户端程序。</p></div><h1 id="tabby计算机环境"><a href="#tabby计算机环境" class="headerlink" title="tabby计算机环境"></a>tabby计算机环境</h1><p>项目源代码官方地址：<br><a href="https://github.com/Eugeny/tabby">https://github.com/Eugeny/tabby</a></p><p><del>截至2022年3月23日，本软件最新版本为1.0.174，支持简体中文。</del><br><del>截至2022年5月9日，本软件最新版本为1.0.176，支持简体中文。</del><br>截至2022年5月9日，本软件最新版本为1.0.181，支持简体中文。<br>官方客户端地址：</p><p><a href="https://github.com/Eugeny/tabby/releases">https://github.com/Eugeny/tabby/releases</a></p><p>建议从官方下载，第三方下载可能包含病毒或广告插件！</p><p>下面来看下功能，支持ssh，telnet，串口，CMD，POWER SHELL，WSL，还有代码高亮等很多特性，真的很棒。</p><h1 id="tabby网页环境"><a href="#tabby网页环境" class="headerlink" title="tabby网页环境"></a>tabby网页环境</h1><p>当然如果在无固定计算机环境下，还可以使用web版，你可以使用官方的服务器，当然会很慢，如果你信任该站，则可以通过以下链接享受网页版。<br><a href="https://app.tabby.sh/">https://app.tabby.sh/</a></p><p>如果你需要自己搭建，为了信息安全…,这需要你拥有一台服务器来部署。<br><a href="https://github.com/Eugeny/tabby-web">https://github.com/Eugeny/tabby-web</a><br>如果使用web版需要让用户登录<br>必须转发流量<br><a href="https://github.com/Eugeny/tabby-connection-gateway">https://github.com/Eugeny/tabby-connection-gateway</a></p>]]></content>
       
       
       <categories>
@@ -86,12 +80,6 @@
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> soft </tag>
-            
-        </tags>
       
     </entry>
     
